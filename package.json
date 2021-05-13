@@ -39,7 +39,11 @@
     "webextension-polyfill": "0.8.0"
   },
   "devDependencies": {
+  <<<<<<< J-Vin-patch-2
+    "@babel/core": "^7.13.16",
+  =======
     "@babel/core": "^7.14.0",
+  >>>>>>> master
     "@babel/preset-react": "^7.13.13",
     "angular-mocks": "1.8.2",
     "babel-loader": "^8.2.2",
@@ -71,6 +75,21 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^4.0.2",
+  <<<<<<< J-Vin-patch-2
+    "mini-css-extract-plugin": "^1.5.0",
+    "mocha": "^8.3.2",
+    "node-sass": "^4.14.1",
+    "node-sass-json-importer": "^4.3.0",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^10.1.1",
+    "sinon": "^9.2.4",
+    "string-replace-loader": "^2.3.0",
+    "style-loader": "^2.0.0",
+    "to-string-loader": "^1.1.6",
+    "web-ext": "^5.5.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  =======
     "mini-css-extract-plugin": "^1.6.0",
     "mocha": "^8.3.2",
     "node-sass": "^5.0.0",
@@ -84,6 +103,7 @@
     "web-ext": "^6.1.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^4.6.0"
+  >>>>>>> master
   },
   "engines": {
     "node": ">=12",
